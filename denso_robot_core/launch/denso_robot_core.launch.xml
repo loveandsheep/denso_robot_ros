@@ -1,6 +1,6 @@
 <launch>
   <!-- Controller name -->
-  <arg name="controller_name" default="" />
+  <arg name="controller_name" default="shimadzu_miselab" />
   <param name="controller_name" value="$(arg controller_name)" />
 
   <!-- Controller type: RC8:=8 -->
